@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    
+        <div class="container">
+            <div class = "navbar">
+                <div class = "logo">
+                    <a href="index.html"><img src = "https://www.logolynx.com/images/logolynx/4c/4c1e9d4c49f1ee74f3bb871a181fea10.png" width = "125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "products.html">Products</a></li>
+                        <li><a href = "">About</a></li>
+                        <li><a href = "account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images\cart.png" width="25px" height="25px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            
+        </div>
+
+
+<!---- Cart Item Details ----->
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/buy-1.jpg">
+                    <div>
+                        <p>Red Printed T-Shirt</p>
+                        <small>Price: Rs 2500</small><br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>Rs 2500</td>
+        </tr> 
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/buy-2.jpg">
+                    <div>
+                        <p>Red Printed T-Shirt</p>
+                        <small>Price: Rs 2000</small><br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>Rs 2000</td>
+        </tr> 
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/buy-3.jpg">
+                    <div>
+                        <p>Red Printed T-Shirt</p>
+                        <small>Price: Rs 1500</small><br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>Rs 1500</td>
+        </tr>        
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>Rs 2500</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>Rs 200</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>Rs 2700</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+<!------Footer Section----->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Andriod and IOS Mobile</p>
+                    <div class="app_logo">
+                        <img src="https://static.vecteezy.com/system/resources/previews/012/871/364/original/google-play-store-download-button-in-white-colors-download-on-the-google-play-store-free-png.png">
+                        <img src="https://pluspng.com/img-png/download-on-app-store-png-with-without-wifi-or-data-2000.png">
+                    </div>
+                </div>
+                <div class="footer-col2">
+                    <h3>Useful Links:</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class = "copyright"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

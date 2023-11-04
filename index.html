@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class = "navbar">
+                <div class = "logo">
+                    <a href="index.html"><img src = "https://www.logolynx.com/images/logolynx/4c/4c1e9d4c49f1ee74f3bb871a181fea10.png" width = "125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "products.html">Products</a></li>
+                        <li><a href = "">About</a></li>
+                        <li><a href = "account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images\cart.png" width="25px" height="25px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col2">
+                    <h1>Give your Workout a <br> New Style!</h1>
+                    <a href = "" class="button">Explore Now &#8594;</a>
+                </div>
+                <div class="col2">
+                    <img src = "https://2.bp.blogspot.com/-Npcuk2lgD6o/V8bEG6KD8kI/AAAAAAAAADI/-JaPRjHusaMNAeLwboxMvwhk2zz57eWeQCLcB/s1600/mens-wear-banner.jpg" style="height: 500px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col3">
+                    <img src="https://i.pinimg.com/originals/6e/ab/f1/6eabf1266b80cce02c6993e65d0b3732.jpg" style="height:300px;">
+                </div>
+                <div class="col3">
+                    <img src="https://s-media-cache-ak0.pinimg.com/736x/f4/6a/6c/f46a6c6eead8a975ee38520a016023a4.jpg" style="height:300px;">
+                </div>
+                <div class="col3">
+                    <img src="https://i5.walmartimages.com/asr/8e81cb98-4e4d-4a22-95f6-b5b430c97b84.7611217a720c5088ad9be6384d4c3904.jpeg"  style="height:300px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col4">
+                <a href="product_details.html"><img src="https://i.pinimg.com/originals/ed/2f/09/ed2f095ee3df207b81d1f8548357069f.jpg"></a>
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 2500</p>
+            </div>
+            <div class="col4">
+                <img src="images/product-2.jpg" style="height: 318px;">
+                <h4>HRX Sport Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 2500</p>
+            </div>
+            <div class="col4">
+                <img src="images/product-3.jpg" style="height: 318px;">
+                <h4>HRX Gray Trackpants</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs 2500</p>
+            </div>
+            <div class="col4">
+                <img src="images/product-4.jpg">
+                <h4>Blue Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 2500</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col4">
+                <img src="images/product-5.jpg">
+                <h4>Puma Gray Sport Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 2500</p>
+            </div>
+            <div class="col4">
+                <img src="images/product-6.jpg">
+                <h4>Black Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 2500</p>
+            </div>
+            <div class="col4">
+                <img src="images/product-7.jpg">
+                <h4>HRX Set of 3 Socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs 2500</p>
+            </div>
+            <div class="col4">
+                <img src="images/product-8.jpg">
+                <h4>Black Fossil Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 2500</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col4">
+                <img src="images/product-9.jpg">
+                <h4>Black Sports Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 2500</p>
+            </div>
+            <div class="col4">
+                <img src="images/product-10.jpg">
+                <h4>Black HRX Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 2500</p>
+            </div>
+            <div class="col4">
+                <img src="images/product-11.jpg">
+                <h4>Gray Nike Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs 2500</p>
+            </div>
+            <div class="col4">
+                <img src="images/product-12.jpg">
+                <h4>HRX Black Trackpants</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 2500</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col2">
+                    <img src="https://static.toiimg.com/thumb/resizemode-4,msid-93786120,width-1070/93786120.jpg" class="offer-img">
+                </div>
+                <div class="col2">
+                    <h1>boAt Xtend Pro Smart Watch</h1>
+                    <small>This boAt Xtend Pro Smart Watch is a unique combination of style and functionality that 
+                        keeps you ahead of time with its unique features. The smartwatch comes with a powerful 
+                        battery life of Up to 7 Days, which saves your time from frequently charging it. 
+                        The AMOLED Display display of the watch gives you a comfortable viewing experience</small><br>
+                    <a href="" class="button">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <h3>Sean Parker</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col5">
+                    <img src="images/logo-godrej.png">
+                </div>
+                <div class="col5">
+                    <img src="images/logo-oppo.png">
+                </div>
+                <div class="col5">
+                    <img src="images/logo-coca-cola.png">
+                </div>
+                <div class="col5">
+                    <img src="images/logo-paypal.png">
+                </div>
+                <div class="col5">
+                    <img src="images/logo-philips.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Andriod and IOS Mobile</p>
+                    <div class="app_logo">
+                        <img src="https://static.vecteezy.com/system/resources/previews/012/871/364/original/google-play-store-download-button-in-white-colors-download-on-the-google-play-store-free-png.png">
+                        <img src="https://pluspng.com/img-png/download-on-app-store-png-with-without-wifi-or-data-2000.png">
+                    </div>
+                </div>
+                <div class="footer-col2">
+                    <h3>Useful Links:</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class = "copyright"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
